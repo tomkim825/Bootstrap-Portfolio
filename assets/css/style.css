@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
+  padding-bottom:50px;  
 }
 
 * {
@@ -53,7 +54,8 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  display: none;
+  position: static;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
@@ -229,4 +231,33 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* MEDIA Query for logo to resize */
 
+@media screen and (max-width: 640px) {
+
+  #masthead {
+    display: block;
+    padding:0;
+}
+#nav{
+  padding-top:5px; 
+  width:320px; 
+  clear:both; 
+  float:none;
+}
+
+  #logo {
+    width:100%;
+  }
+
+  #navbar{
+    display:none;
+  }
+
+  #main-container {
+    padding-top: 10px;
+   }
+   
+   .card{
+     display:none;
+   }

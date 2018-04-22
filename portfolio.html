@@ -8,7 +8,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
+<!-- this is a hidden header that only appears under 640px -->
+<header id="masthead">
+    <div id="logo">
+      <a href="index.html" id="logo">Thomas Kim</a>
+    </div>
+    <div class="container mx-auto" id="nav">
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+        
+  </header>
+<!-- this is the visible bootstrap header -->
 <body>
     <nav class="navbar fixed-top navbar-light bg-light" id="navbar" style="border-bottom: 1px solid #ccc">
         <div class="container">
@@ -72,7 +84,7 @@
                 </section>
                 </div>
                   </div>           
-            <div class="hidden-xs hidden-sm col-md-4 ">
+            <div class="d-none d-md-block col-md-4 ">
                 <div class="card" style="margin-top:130px">
                     <div class="card-header font-weight-bold" style="padding-bottom: 15px;">
                       Sidebar
