@@ -238,13 +238,13 @@ input[type=submit] {
   #masthead {
     display: block;
     padding:0;
-}
-#nav{
+  }
+  #nav{
   padding-top:5px; 
   width:320px; 
   clear:both; 
   float:none;
-}
+  }
 
   #logo {
     width:100%;
@@ -261,3 +261,4 @@ input[type=submit] {
    .card{
      display:none;
    }
+}
